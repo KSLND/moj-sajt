@@ -1,0 +1,61 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #000000, #363636);
+    color: white;
+}
+
+h2{
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+footer{
+    font-size: 0.9em;
+
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+#div2{
+    background-color: #363636;
+    z-index: 0;
+    
+    
+}
+
+#headervrh {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: black; /* Obezbedite da ostane vidljivo */
+}
+
+#nas:hover::before {
+            content: "DIGITAL AGE DOO";
+            color: rgb(0, 0, 0);
+        }
+
+        #nas::before {
+            content: "NAS";
+        }
+
+#btn1:hover{
+
+    background-color: gray;
+}
+
+
+

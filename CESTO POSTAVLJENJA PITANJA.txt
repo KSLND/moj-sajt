@@ -1,0 +1,104 @@
+<section class="container my-5">
+    <h2 class="text-center mb-4">Cesto postavljanja pitanja</h2>
+    <div class="accordion" id="faq">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faq1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#odg1">
+                    Koliko cesto planiras
+                </button>
+            </h2>
+            <div id="odg1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                <div class="accordion-body">
+                    Trudim se da planiram svaki dan.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faq2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    Kada si poceo da treniras
+                </button>
+        CESTO POSTAVLJENA PITANJA   
+
+ </h2>
+            <div id="odg2" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                <div class="accordion-body">
+                    Sa 10 godina.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faq3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    Koliko cesto programiras
+                </button>
+            </h2>
+            <div id="odg3" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                <div class="accordion-body">
+                    3 put nedeljno.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+radno vreme
+
+
+
+
+
+<section class="container my-5">
+    <h2 class="text-center mb-4" style="color: rgb(211, 200, 187);font-weight: bold;" id="rv">RADNO VREME</h2>
+    <table style="font-weight: bold;font-size: larger;" class="table table-striped table-bordered text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>Ponedeljak</th>
+                <th>Utorak</th>
+                <th>Sreda</th>
+                <th>Cetvrtak</th>
+                <th>Petak</th>
+                <th>Subota</th>
+                <th>Nedelja</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>9:00-15:00</td><td>9:00-15:00</td><td>9:00-15:00</td><td>9:00-15:00</td><td>9:00-15:00</td><td>Ne radimo</td><td>Ne radimo</td></tr>
+            
+        </tbody>
+    </table>
+</section>
+
+
+
+
+
+<div class="col-md-4">
+            <div class="card h-100 shadow">
+                <img src="Coding_Class.jpg" class="card-img-top" alt="Coding">
+                <div class="card-body">
+                    <h5 class="card-title">Kodiranje</h5>
+                    <p class="card-text"> Volim da igram kodiram.</p>
+                    <a href="#" class="btn btn-outline-primary">Pogledaj</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <img src="7-Things-Drinking-Alcohol-Does-to-Your-Body.webp" class="card-img-top" alt="Alcohol">
+                <div class="card-body" style="background-color: #6b6b6b;">
+                    <h5 class="card-title">Alkohol</h5>
+                    <p class="card-text">Volim da popijem</p>
+                    <a href="#" class="btn btn-outline-primary">Pogledaj</a>
+                </div>
+            </div>
+        </div>
