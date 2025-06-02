@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     links.forEach(link => {
         link.addEventListener("click", function (event) {
-            event.preventDefault(); // Sprečava podrazumevano ponašanje
+            // Sprečava podrazumevano ponašanje
             
             // Uklanja "active" klasu sa svih linkova
             links.forEach(link => link.classList.remove("active"));

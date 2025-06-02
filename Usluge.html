@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="sr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Digital AGE DOO - Usluge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #000;
+            color: #e0f7fa;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        header {
+            background: #1f1f1f;
+            padding: 3rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 3px solid #00bcd4;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #00e5ff;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #b2ebf2;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .service-card {
+            background-color: #102027;
+            border-radius: 10px;
+            padding: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 0 10px rgba(0, 229, 255, 0.3);
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 25px rgba(0, 229, 255, 0.7);
+        }
+        .service-card h3 {
+            color: #00e5ff;
+            margin-bottom: 1rem;
+        }
+        .service-card p {
+            font-size: 1.05rem;
+            color: #e0f7fa;
+        }
+        footer {
+            background-color: #001f23;
+            color: #00bcd4;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+        }
+        a.btn-cyan {
+            background-color: #00e5ff;
+            color: #000;
+            font-weight: bold;
+            border: none;
+            margin-top: 1rem;
+        }
+        a.btn-cyan:hover {
+            background-color: #00bcd4;
+            color: #fff;
+        }
+        nav.navbar {
+            background-color: #000 !important;
+        }
+    </style>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;height:80px; padding-right: 0%;" id="headervrh">
+    <div class="container" style="font-size: large;">
+        <a class="navbar-brand" href="#">Digital AGE DOO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meni">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="meni">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">O kompaniji</a></li>
+                <li class="nav-item"><a class="nav-link active" href="Usluge.html">Usluge</a></li>
+                <li class="nav-item"><a class="nav-link" href="Prosli_projekti.html">Prošli projekti</a></li>
+                <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ko">Kontakt</a></li>
+                <li class="nav-item"><a class="nav-link" href="#rv">Radno vreme</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <header>
+        <h1>Naše usluge</h1>
+        <p>Inovativna rešenja prilagođena vašim poslovnim potrebama</p>
+    </header>
+
+    <main class="container">
+        <div class="services-grid">
+            <section class="service-card" style="height: 500px;">
+                <h3>Razvoj web aplikacija</h3>
+                <p>Kreiramo moderne i brze web aplikacije koje pomažu vašem poslovanju da se istakne na internetu i poveća angažman korisnika.</p>
+                
+            </section>
+            <section class="service-card">
+                <h3>Mobilne aplikacije</h3>
+                <p>Specijalizovani smo za razvoj mobilnih aplikacija za Android i iOS platforme, sa fokusom na performanse i korisničko iskustvo.</p>
+                
+            </section>
+            <section class="service-card">
+                <h3>Digitalna transformacija</h3>
+                <p>Pomažemo firmama da implementiraju savremena IT rešenja, automatizuju procese i unaprede digitalnu prisutnost.</p>
+                
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Digital AGE DOO | Kontakt: digital.age.doo@gmail.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
