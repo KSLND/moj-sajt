@@ -86,8 +86,8 @@ video {
 
 .row {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 30vh; /* Ensures full height */
+    justify-content: center; 
+    align-items: center; 
+    height: 30vh; 
 }
 

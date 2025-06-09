@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Radno vreme | Digital AGE DOO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 2px solid #8b0000;
+        }
+
+        header h1 {
+            color: #8b0000;
+            font-weight: bold;
+        }
+
+        .vreme {
+            max-width: 600px;
+            margin: 3rem auto;
+            background-color: #1f1f1f;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(139, 0, 0, 0.3);
+        }
+
+        .vreme table {
+            width: 100%;
+        }
+
+        .vreme th,
+        .vreme td {
+            padding: 0.75rem 1rem;
+        }
+
+        .vreme th {
+            color: #8b0000;
+            text-align: left;
+        }
+
+        .vreme td.closed {
+            color: #ff6b6b;
+        }
+
+        footer {
+            background-color: #000;
+            color: #8b0000;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;height:80px ;" id="headervrh">
+        <div class="container" style="font-size: large;">
+            <a class="navbar-brand" href="#">Digital AGE DOO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meni">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="meni">
+                <ul class="navbar-nav ms-auto">
+                   
+                    <li class="nav-item"><a class="nav-link  " href="index.html">O kompaniji</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Usluge.html">Usluge</a></li>
+                    <li class="nav-item"><a class="nav-link " href="Prosli_projekti.html">Prošli projekti</a></li>
+                    <li class="nav-item"><a class="nav-link " href="Blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Kontakt.html">Kontakt</a></li>
+                     <li class="nav-item"><a class="nav-link active " href="RadnoVreme.html">Radno vreme</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>Radno vreme</h1>
+        <p>Kada smo dostupni za saradnju i komunikaciju</p>
+    </header>
+
+    <main class="container">
+        <section class="vreme">
+            <table class="table table-borderless text-light">
+                <tbody >
+                    <tr>
+                        <th>Ponedeljak</th>
+                        <td>09:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <th>Utorak</th>
+                        <td>09:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <th>Sreda</th>
+                        <td>09:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <th>Četvrtak</th>
+                        <td>09:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <th>Petak</th>
+                        <td>09:00 - 15:00</td>
+                    </tr>
+                    <tr>
+                        <th>Subota</th>
+                        <td class="closed">Ne radimo</td>
+                    </tr>
+                    <tr>
+                        <th>Nedelja</th>
+                        <td class="closed">Ne radimo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Digital AGE DOO | Email: digital.age.doo@gmail.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+</html>
